@@ -1,0 +1,165 @@
+/*
+カラーパターン
+#87ceeb = skyblue
+#344A53
+#97AFBA
+#E0B8E0
+#A882A9
+
+
+Googlefonts
+font-family: 'Noto Serif JP', serif;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+
+body {
+    margin:0;
+}
+
+.container {
+    position:relative;
+    width: 100%;
+    height:auto !important; height:100%;
+    min-height: 100%;
+    padding-bottom: 15vh; /*footerの分余白を作る*/
+    font-family: 'Noto Serif JP', serif;
+}
+
+.head_nav {
+    display: flex;
+    width: 100%;
+    height: 11vh;
+}
+
+.head_nav h1 {
+    margin-left: 4vw;
+    color: #344A53;
+}
+
+.head_nav ul {
+    display:flex;
+    margin: 4vh 10vw 0 auto;
+}
+
+.head_nav{
+    background-color: skyblue;
+    position: fixed;
+}
+
+.head_nav li {
+    margin-left: 4vw;
+    list-style: none;
+}
+
+.head_nav li a {
+    text-decoration: none;
+    color:#344A53;
+    font-weight:600;
+}
+
+.head_nav li a:hover {
+    color:#fff;
+}
+
+.head_sozai {
+    margin-top: 11vh;
+    width:100%;
+    height: 320px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contents {
+    float: left;
+    width: 75vw;
+    height: 100%;
+}
+
+.deco_midashi {
+    border-left: solid 0.5vw skyblue;
+    padding-left: 1vw;
+}
+
+.sidebar {
+    float:right;
+    width: 20vw;
+    height:max-content;
+    background-color:ghostwhite;
+}
+
+.sidebar li {
+    list-style: none;
+}
+
+
+.insidebar {
+    padding-left: 4vw;
+}
+
+
+.sidebar h3 {
+    border: solid 3px #97AFBA;
+    margin: 5vh 3vw 3vh -2vw;
+    padding-left: 3vw;
+}
+
+.bar_title {
+    margin: 2vh 3vw 2vh -2vw;
+    padding-left: 2vw;
+    border: solid 2px #97AFBA;
+}
+
+.bar_li {
+    margin-left: -1.5vw;
+    margin-bottom: 1vh;
+}
+
+.ireko_li::after {
+    display: block;
+    content: '';
+    border-bottom:solid 3px #97AFBA;
+    margin: 3vh 3vw 2vh -4vw; 
+}
+
+/*.ul_is::after {
+    display: block;
+    content: '';
+    border-bottom:solid 3px #97AFBA;
+    margin: 2vh 0 2vh -7vw;
+}
+*/
+
+.ul_is {
+    border: solid 2px #97AFBA;
+    margin: 2vh 3vw 0 auto;
+
+}
+
+footer {
+    background-color: #344A53;
+    width: 100%;
+    height: 15vh;
+    position: absolute;
+    bottom: 0;
+}
+
+/*.head_sozai_css:after {
+    background-image: url(../image/Yama_head_Sozai.png);
+    height: 350px;
+    display: block;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+#87ceeb = skyblue
+#344A53
+#97AFBA
+#E0B8E0
+#A882A9
+
+}*/
