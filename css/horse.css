@@ -1,0 +1,84 @@
+.about_horse {
+    width:65vw;
+    margin: 0 auto;
+}
+
+.head_keiba {
+    margin: 5vh auto;
+    display: block;
+    width: 55vw;
+    height: auto;
+}
+
+.incont_txt {
+    margin-left: 5vw;
+    margin-top: 3vh;
+}
+
+.contents h2, .contents h3  {
+    margin-top: 6vh;
+}
+
+.flex_yudoba {
+    display: flex;
+    margin-bottom: 5vh;
+}
+
+.yudoba {
+    width: 20vw;
+    margin-left:3vw;
+    margin-right: 2vw;
+    float: right;
+}
+
+.yudoba_txt {
+    margin-left: 5vw;
+    line-height: 2;
+}
+
+.txt_stress {
+    font-size: 1.2em
+}
+
+@media screen and (max-width:1080px) {
+
+    body {
+        font-size: 13px;
+    }
+    
+    .txt_stress {
+        font-size: 1.1em
+    }
+
+    .contents, .container {
+        width: 100%;
+    }
+
+    .about_horse {
+        width: 100%;
+    }
+
+    .about_horse p {
+        padding: 3vw;
+    }
+
+    .head_keiba {
+        width: 100%;
+        height: auto;
+    }
+
+    .yudoba {
+        float: initial;
+        width:60vw;
+        height: auto;
+    }
+
+    .flex_yudoba {
+        display: block;
+    }
+
+    .deco_midashi {
+        border-left-width: 2vw;
+        padding-left: 4vw;
+    }
+}

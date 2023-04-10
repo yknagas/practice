@@ -1,0 +1,132 @@
+/* contents は width:75vw; 
+
+デザインを少し参考したしたサイト
+https://www.comforts.jp/shibuya/17299/
+
+*/
+
+/*
+guooglefonts kiwimaru キウイ丸
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+font-family: 'Kiwi Maru', serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+.sidebar {
+    display: none;
+}
+
+.contents {
+    width:100%;
+}
+
+.about_sheep {
+    width:80vw;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+    line-height: 1.75;
+}
+
+.sheep_midashi {
+    font-family: 'Kiwi Maru', serif;
+    text-align: center;
+    font-size: 2rem;
+    border-left: solid 1vw skyblue;
+    padding-left: 3vw;
+    width:fit-content;
+    margin: 4vh auto;
+}
+
+.sheep_yoko {
+    width:50vw;
+    height: auto;
+    display: block;
+    margin: 7vh auto 5vh; 
+}
+
+.col_shp_out {
+    width:50vw;
+    margin: 2vh auto;
+}
+
+.col_shp {
+    float:left;
+    width:22vw;
+    margin: 1vh 3vw 1vh 0vw;
+    text-align: left;
+}
+
+/*.clshp2_mgn {
+    margin-top: 6vh;
+}
+*/
+
+.shp_h2 {
+    line-height: 1.5;
+}
+
+.about_sheep a{
+    text-decoration: none;
+    color:#344A53;
+    font-weight:600;
+}
+
+.about_sheep a:hover {
+    color:skyblue;
+}
+
+.emp_shp {
+    font-size: 1.1em;
+    font-weight: bold;
+    border-bottom: solid 2px #344A53;
+    display: block;
+    padding-left: 10%;
+}
+
+.txt_small {
+    font-size: 0.9em;
+    font-weight: 200;
+    display: inline-block;
+    margin-top: 3vh;
+}
+
+.mt-2vh {
+    margin-top: 4vh;
+}
+
+@media screen and (max-width:1080px) {
+
+    .about_sheep {
+        width:90vw;
+        margin: 0 auto;
+        height: 100%;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .col_shp_out {
+        width:inherit;
+        margin: 2vh auto;
+    }
+
+    .col_shp {
+        float:initial;
+        width:initial;
+        margin: 0 2vw;
+        text-align: initial;
+    }
+
+    .sheep_yoko {
+        width:75vw;
+        height: auto;
+        display: block;
+        margin: 7vh auto 5vh; 
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+}
