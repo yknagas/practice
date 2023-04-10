@@ -1,0 +1,13 @@
+body {
+    font-size: 16px;
+}
+
+.head_nav ul, .sidebar {
+    display: none;
+}
+
+.head_sozai {
+    margin-top: 11vh;
+    width:100%;
+    height: 20vh;
+}
