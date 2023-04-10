@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>トップページ</title>
+    <link href="css/frame.css" rel="stylesheet">
+    <link href="css/frame_res.css" rel="stylesheet" media="screen and (max-width:1080px)">
+    <link href="css/2col_links.css" rel="stylesheet">
+    <!--もとは、2col_links.html-->
+</head>
+<body id="index">
+    <div class="container">
+        <header class="head_sozai_css">
+            <nav class="head_nav">
+                <h1>Information</h1>
+                <ul>
+                    <li><a href='2col_links.html'>animals</a></li>
+                    <li><a href='#'>CSS</a></li>
+                    <li><a href='#'>JavaScript</a></li>
+                    <li><a href='#'>Python</a></li>
+                    <li><a href='#'>Ruby</a></li>
+                </ul>
+            </nav>
+            <img src="image/Yama_head_Sozai.png" class="head_sozai">
+        </header>
+
+        <div class="page_inside clearfix">
+            <main class="contents clearfix">
+                <h2 class="deco_midashi">2列記事のリンク集</h2>
+
+                <div class="col">
+                    
+                    <a href="horse.html">
+                    <div class="midashi_link">
+                    <h3>馬</h3>
+                    <p>
+                        <img src="../kaien_kihon_imitate/image/horses.jpg">
+                        競馬で活躍する
+                        <br>意外な馬について。
+                        <br>
+                        競馬の裏方のお仕事
+                    </p>
+                    </div>
+                    </a>
+
+
+                    <div class="midashi_link">
+                    <h3>猫</h3>
+                    <p>
+                        <img src="../kaien_kihon_imitate/image/cat.jpg">
+                        猫が
+                        <br>見つめる先には……
+                        <br>
+                        警戒心の強い猫は
+                        <br>見つめている。                    
+                    </p>
+                    </div> 
+
+                </div>
+
+                <div class="col">
+
+                    <a href="sheep.html">
+                    <div class="midashi_link">
+                    <h3>羊</h3>
+                    <p>
+                        <img src="../kaien_kihon_imitate/image/sheep.jpg">
+                        羊が一匹……
+                        <br>羊が二匹……
+                        <br>
+                        羊を数えて眠る。
+                    </p>
+                    </div> 
+                    </a>
+
+                    <div class="midashi_link">
+                        <h3>鴨</h3>
+                        <p>
+                            <img src="image/kamo.jpg">
+                            鴨は水の上を浮かんで泳げるし、
+                            <br>飛ぶこともできます。
+                        </p>
+                        </div> 
+                    </div>
+            </main>
+
+            <aside class="sidebar">
+                <div class="insidebar">
+                    <div class="side_-5vw_fix">
+                        <h3>Sidebar</h3>
+                    </div>
+                    <ul class="bar_con">
+                        <li class="bar_title">HTML</li>
+                        <div class="ireko_li">
+                            <ul class="ul_is">
+                                <li class="bar_li">divタグ</li>
+                                <li class="bar_li">imgタグ</li>
+                                <li class="bar_li">h1タグ</li>
+                                <li class="bar_li">ulタグ</li>
+                            </ul>
+                        </div>
+                        <li class="bar_title">CSS</li>
+                        <div class="ireko_li">
+                            <ul class="ul_is">
+                                <li class="bar_li">display: none;</li>
+                                <li class="bar_li">color: skyblue;</li>
+                                <li class="bar_li">Bootstrap</li>
+                                <li class="bar_li">tailwind</li>
+                            </ul>
+                        </div>
+                        <li class="bar_title">JavaScript</li>
+                        <div class="ireko_li">
+                            <ul class="ul_is">
+                                <li class="bar_li">jQuery</li>
+                                <li class="bar_li">Node.js</li>
+                                <li class="bar_li">GAS</li>
+                                <li class="bar_li">JSON</li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+
+        <footer class="foot_info">
+            <p style="color: aliceblue; text-align: center;">&copy;NY 2023</p> 
+        </footer>
+    </div>
+</body>
+</html>
