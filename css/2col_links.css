@@ -1,0 +1,88 @@
+.col {
+    float: left;
+    width: 29vw;
+    margin: 0 auto 4vh 2vw;
+    padding: 3vw;
+}
+
+.col p {
+    margin: 5vh auto 8vh auto;
+    line-height: 1.5;
+    font-size: 0.95em;
+}
+
+.midashi_link img {
+    float: right;
+    width: 12vw;
+    height: auto;
+    margin-left: 1vw;
+}
+
+.midashi_link {
+    border: solid 1px #344A53;
+    width: 22vw;
+    height: 32vh;
+    padding: 3vh 3vw;
+    margin-bottom: 7vh;
+}
+
+.col a {
+    color:initial;
+    text-decoration: initial;
+}
+
+.midashi_link:hover {
+    background-color: rgb(52, 74, 83, 0.3) ;
+    /* rgb(52, 74, 83) = #344A53*/
+}
+
+.contents h2 {
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
+
+@media screen and (max-width:1080px){
+
+    main {
+        width: 90vw;
+    }
+
+    .col, .midashi_link {
+        width: inherit;
+        margin: initial;
+        padding: initial;
+    }
+
+    .midashi_link {
+        width: 85vw;
+        display: block;
+        margin: 4vh auto 4vh 4vw;
+        padding: 2vh 3vw;
+    }
+
+    .midashi_link img {
+        width: 42vw;
+    }
+
+    .col {
+        float: initial;
+    }
+
+    .midashi_link p {
+        line-height: 1.8;
+    }
+
+    .col img {
+        margin-left: 3vw;
+    }
+
+    .midashi_link h3 {
+        margin: 1vh auto;
+        text-align: center;
+    }
+
+    .deco_midashi {
+        border-left-width: 2vw;
+        padding-left: 4vw;
+    }
+}
