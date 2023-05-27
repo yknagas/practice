@@ -1,10 +1,10 @@
 /*window.onload = function(){};*/
 
     var images = ['url(../kaien_kihon_imitate/image/cat.jpg) ',
-    'url(../kaien_kihon_imitate/image/hato.jpg)', 
-    'url(../kaien_kihon_imitate/image/inko.jpg)', 
-    'url(../kaien_kihon_imitate/image/sheep.jpg', 
-    'url(../kaien_kihon_imitate/image/carp.jpg)'
+    'url(image/hato.jpg)', 
+    'url(image/inko.jpg)', 
+    'url(image/sheep.jpg', 
+    'url(image/carp.jpg)'
     ];
 
     var target = document.getElementById('slide');
