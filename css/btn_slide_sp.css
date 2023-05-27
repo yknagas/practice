@@ -1,0 +1,79 @@
+@media screen and (max-width: 600px) {
+    .content {
+        display: none;
+    }
+
+    .sp_content {
+        display: block;
+        height: 88vh;
+        width: 100vw;
+    }
+
+    .sp_clbtn {
+        color: #cccccc;
+        font-size: 2rem;
+        text-align: center;
+        background-color: chocolate;
+    }
+
+    header {
+        height: 12vh;
+    }
+    
+    header ul {
+        position: fixed;
+        top: 1vh;
+        right: 2vw;
+    }
+    
+    header h1 {
+        margin:1vh 3vw;
+    }
+
+    .sp_slideshow {
+        position: fixed;
+        top: 30vh;
+        width: 100%;
+        height: 30vh;     
+        background-image: url(../../kaien_kihon_imitate/image/cat.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0% 50%;
+    }
+
+    .sp_btn_bg {
+        background-color: silver;
+        height: 15vh;
+        width: 100vw;
+        padding-top: 5vh;
+        position: fixed;
+        top: 70vh;
+    }
+
+    .sp_btxt {
+        top: 60vh;
+        position: fixed;
+        margin-left: 3vw;
+        border-bottom: solid 2px chocolate;
+        
+    }
+
+
+
+    
+
+    /*.slideshow {
+        width: 100%;
+        height: auto;
+    }
+
+    header {
+        margin-bottom: 5vh;
+    }
+
+    .disc {
+        display: inline-block;
+        
+    }
+    */
+}
