@@ -1,0 +1,146 @@
+/*
+Kaien HTML/CSS基本編の牛丼を真似している-->
+*/
+
+body {
+    width: 841px;
+    margin:auto;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+h1 {
+    width: 100000px;
+    height: 400px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    background-image: url(image/carp_header.jpg);
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    font-size: 4em;
+    font-family: serif;
+    color: #C0FAFF;
+    padding-left: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: left;
+    padding-left: 15px;
+    margin-top:1em;
+    border-top: solid 3px #56B8CF;
+    border-bottom: solid 3px #56B8CF;
+    color: #457F8D;
+    clear:both;
+}
+
+p img {
+    float:right;
+    padding-left: 1.25em;
+}
+
+.content {
+    width: 480px;
+    padding: 0px 10px 0px 40px;
+    float: left;
+}
+
+.list_l1 li:first-child {
+    margin-top: 25px;
+}
+
+/*.animal {
+    padding-bottom: 3em;
+}
+*/
+
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.dansa {
+    padding-left: 5em;
+}
+
+.sidebar {
+    width: 230px;
+    padding: 0px 20px 0px 5px;
+    float: left;
+}
+
+.list {
+    padding: 0;
+    margin-right: -15px;
+    position: relative;
+    font-size: 20px;
+}
+
+.list_l1 {
+    color: black;
+    border-left: solid 8px #457F8D;
+    background: #C0FAFF;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    border-radius: 0 15px 15px 0;
+    padding: 0.5em;
+    text-align: left;
+    margin-left: 20px;
+    padding-right: 25px;
+}
+
+.list_s1 {
+    color: #457F8D;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+.list_l2 {
+    margin-top: 0px;
+    margin-left: -15px;
+    padding: 5px;
+    background-color: #56B8CF;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: #C0FAFF;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.navbar {
+    padding: 0;
+    border-bottom: solid 1px indigo;
+    border-top: solid 1px indigo;
+    overflow: auto;
+    border-radius: 0 0 0.7em 0.7em;
+}
+
+.navbar h2 {
+    width: 139px;
+    border-right: solid 1px indigo;
+    float: left;
+    background-color:#56B8CF;
+    margin:0px;
+    text-align: center;
+    font-family: serif;
+    font-size: 1.25em;
+}
+
+.navbar h2:last-child{
+    border-right: none;
+}
+
+.navbar h2 a {
+    color: #C0FAFF;
+}
+
+.header {
+    border: double 1px navy;
+    border-radius: 0 0 0.7em 0.7em;
+}

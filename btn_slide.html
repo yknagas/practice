@@ -1,0 +1,59 @@
+<!--参考：https://notetoself-dy.com/javascript-slide/-->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF8">
+    <title>ボタン付きスライドショー</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/btn_slide.css" rel="stylesheet">
+    <link href="css/btn_slide_sp.css" rel="stylesheet">
+
+    <!--googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>スライドショー</h1>
+    <ul>
+        <li>猫</li>
+        <li>鳩</li>
+        <li>インコ</li>
+        <li>羊</li>
+        <li>鯉</li>
+    </ul>
+    </header>
+    <div class="content">
+        <div class="slide-pic">
+            <div id="slide" class="slideshow">
+                <p class="disc">Click button</p>
+                <form>
+                    <input type="button" value="＞" class="arrow next" id="right" onclick="Next()">
+                    <input type="button" value="＜"class="arrow back" id="left" onclick="Back()">
+                </form>
+                <!--<a href="#" class="arrow next" id="right"></a>
+                <a href="#" class="arrow back" id="left"></a>-->
+            </div>
+        </div>
+    </div>
+    <div class="sp_content">
+        <p class="sp_clbtn">Click button</p> 
+        <!--<div class="sp_slide-pic">-->
+            <div class="sp_btn_bg">
+                <form>
+                    <input type="button" value="＞" class="arrow next" id="sp_right" onclick="Next()">
+                    <input type="button" value="＜"class="arrow back" id="sp_left" onclick="Back()">
+                </form>
+            </div>
+            <p class="sp_btxt">ボタンを押すと写真が変わります</p>
+            <div id="sp_slide" class="sp_slideshow">
+                <!--<p class="sp_disc">Click button</p>-->
+            </div>
+        <!--</div>-->     
+    </div>
+    <script src="js/btn_slide.js"></script>
+</body>
+</html>

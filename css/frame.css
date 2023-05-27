@@ -138,7 +138,6 @@ body {
 .ul_is {
     border: solid 2px #97AFBA;
     margin: 2vh 3vw 0 auto;
-
 }
 
 footer {
@@ -147,6 +146,10 @@ footer {
     height: 15vh;
     position: absolute;
     bottom: 0;
+}
+
+.footer_mgn {
+    margin-top: 10vh;
 }
 
 /*.head_sozai_css:after {
@@ -163,3 +166,4 @@ footer {
 #A882A9
 
 }*/
+
