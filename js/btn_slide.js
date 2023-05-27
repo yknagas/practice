@@ -1,6 +1,6 @@
 /*window.onload = function(){};*/
 
-    var images = ['url(../kaien_kihon_imitate/image/cat.jpg) ',
+    var images = ['url(image/cat.jpg) ',
     'url(image/hato.jpg)', 
     'url(image/inko.jpg)', 
     'url(image/sheep.jpg', 
