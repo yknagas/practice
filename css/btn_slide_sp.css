@@ -26,6 +26,10 @@
         right: 2vw;
     }
     
+    header ul li {
+        font-size:9px;
+    }
+    
     header h1 {
         margin:1vh 3vw;
     }
